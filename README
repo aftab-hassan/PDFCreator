@@ -1,0 +1,13 @@
+Installations
+-------------
+sudo apt-get update
+1. Install apache : sudo apt-get install apache2;sudo service apache2 restart
+2. Install php : sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+3. Install R : sudo apt-get install r-base r-base-dev
+
+Steps to run
+------------
+1. Download code on to your /var/www/ folder
+2. Have apache running
+3. change permissions of folder to which you downloaded the project; chmod -R 777 AutomatedPDFCreation
+4. From the browser, open index.html
